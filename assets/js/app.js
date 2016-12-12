@@ -14,8 +14,8 @@ function create() {
 function update() {
   if (sprite.x >= 300)
   {
-    sprite.scale.x += 0.01;
-    sprite.scale.y += 0.01;
+    sprite.scale.x += 0.001;
+    sprite.scale.y += 0.001;
   }
 }
 
